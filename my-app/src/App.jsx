@@ -1,4 +1,3 @@
-import "./App.css";
 import React, { useState } from "react";
 
 import Toast from "react-bootstrap/Toast";
@@ -24,7 +23,6 @@ const ExampleToast = ({ children }) => {
 };
 
 const App = () => (
-  
   <Container className="p-3">
     <Container className="p-5 mb-4 bg-light rounded-3">
       <h1 className="header">Welcome To React-Bootstrap</h1>
